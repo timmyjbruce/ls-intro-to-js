@@ -1,0 +1,1 @@
+The code logs '510' because the first value is a string which causes the second value, a number to be coerced into a string and cocatenated, instead of simply added.
