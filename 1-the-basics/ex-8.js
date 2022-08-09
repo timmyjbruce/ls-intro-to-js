@@ -1,0 +1,1 @@
+const pets = [asta, butterscotch, pudding, neptune, darwin]
