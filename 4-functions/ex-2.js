@@ -1,9 +1,11 @@
 let readlineSync = require('readline-sync');
 
-function getName() {
-let firstName = readlineSync.question('What is your first name? ');
-let lastName = readlineSync.question('What is your last name? ');
-return firstName + ' ' + lastName;
+function askForName(questionText) {
+  let nameText = readlineSync.question(questionText);
+return nameText;
 }
 
-console.log(`Hello, ${getName()}!`);
+let firstName = askForName('What is you first name? ');
+let lastName = askForName('What is you last name? ');
+
+console.log(`Hello, ${firstName} ${lastName}`);
