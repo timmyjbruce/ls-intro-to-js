@@ -17,16 +17,16 @@ myArray.forEach(function(subArray) {
 })
 
 // Solution using for loop
-console.log('Solution using for loop');
+// console.log('Solution using for loop');
 
-function logEven (array) {
-  for (i = 0; i < array.length; i++ ) {
-    for (j = 0; j < array[i].length; j++) {
-      if (array[i][j] % 2 === 0) {
-        console.log(array[i][j]);
-      }
-    }
-  }
-}
+// function logEven (array) {
+//   for (i = 0; i < array.length; i++ ) {
+//     for (j = 0; j < array[i].length; j++) {
+//       if (array[i][j] % 2 === 0) {
+//         console.log(array[i][j]);
+//       }
+//     }
+//   }
+// }
 
-logEven(myArray);
+// logEven(myArray);
