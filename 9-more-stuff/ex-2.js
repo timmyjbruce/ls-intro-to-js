@@ -1,0 +1,1 @@
+// That the greeting variable hasn't been declared, or is otherwise of the scope of the log statement.

@@ -1,0 +1,1 @@
+// Exception handling is the process is specifc code added to help handle unexpected behaviour of inputs. It helps us avoid code failing silently by allowing us to log feedback, or otherwise handle unexpected behaviour.
