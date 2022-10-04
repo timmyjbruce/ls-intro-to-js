@@ -16,6 +16,21 @@ myArray.forEach(function(subArray) {
   })
 })
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Solution using for loop
 // console.log('Solution using for loop');
 
